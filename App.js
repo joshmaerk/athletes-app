@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, View } from 'react-native';
 import { Constants } from 'expo';
 
 // You can import from local files
@@ -7,6 +7,9 @@ import AssetKategorie from './components/CreateTraining/HeaderComp/AssetKategori
 import AssetDiscipline from './components/CreateTraining/HeaderComp/AssetDiscipline';
 import AssetDate from './components/CreateTraining/HeaderComp/AssetDate';
 import AssetMood from './components/CreateTraining/HeaderComp/AssetMood';
+
+// import styles
+import styles from './assets/styles'
 
 // or any pure javascript modules available in npm
 import { Card } from 'react-native-paper';
@@ -19,31 +22,11 @@ export default class App extends React.Component {
           Change code in the editor and watch it change on your phone! Save to
           get a shareable url.
         </Text>
-        <Card>
-          <AssetKategorie />
-          <AssetDiscipline />
-          <AssetDate />
-          <AssetMood />
-        </Card>
-        <Card>
-        </Card>
+        <Card><AssetKategorie /></Card>
+        <Card><AssetDiscipline /></Card>
+        <Card><AssetDate /></Card>
+        <Card><AssetMood /></Card>
       </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#ecf0f1',
-    padding: 8,
-  },
-  paragraph: {
-    margin: 24,
-    fontSize: 18,
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
-});

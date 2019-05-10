@@ -1,1 +1,3 @@
+[![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/joshmaerk/athletes-training%2Fathletes-training-pipe?key=eyJhbGciOiJIUzI1NiJ9.NWNkNTEzNjljNjJmODgyMTg3ZmE2ZDI0.qCx_3mCcXTN1vSBQ6ovu1juplRPApBbNr3086Q3dpyA&type=cf-1)]( https://g.codefresh.io/pipelines/athletes-training-pipe/builds?filter=trigger:build~Build;pipeline:5cd55f4ff268d7a2cbda3d43~athletes-training-pipe)  [![BCH compliance](https://bettercodehub.com/edge/badge/joshmaerk/athletes-app?branch=master)](https://bettercodehub.com/)  [![Build Status](https://travis-ci.org/joshmaerk/athletes-app.svg?branch=master)](https://travis-ci.org/joshmaerk/athletes-app)
+
 # athletes-app

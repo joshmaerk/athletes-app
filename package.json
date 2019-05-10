@@ -1,8 +1,8 @@
 {
   "name": "create_training",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "No description",
-  "author": null,
+  "author": "joshua maerker",
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "dependencies": {
